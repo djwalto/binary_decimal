@@ -55,7 +55,6 @@ export default class calculator extends Component {
             <div>
 
                 <input onChange={this.onInputChange('number')}></input>
-                {/* <button onClick={this.binaryCalc}>Click to Calculate</button> */}
                 <h1>{answer}</h1>
 
             </div>
